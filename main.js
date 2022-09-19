@@ -1,0 +1,18 @@
+const hamburger = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+
+hamburger.addEventListener('click', function () {
+    hamburger.classList.toggle('is-active');
+    mobile_menu.classList.toggle('is-active');
+});
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
+}
