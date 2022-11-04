@@ -1,6 +1,4 @@
 # Interstellar
 
-After learning html, css and javascript for 6 weeks this is my first web development project.
-Please give me advice on how I can improve my project. 
+After 6 weeks of learning html, css and a little javascript this is my first web development project.
 
-:)
